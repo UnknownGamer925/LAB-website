@@ -181,7 +181,7 @@
         top: 50%;
         z-index: 10;
         left: 2%;
-        font-size: 1.6vw;
+        font-size: 3.2vw;
         color: white;
         opacity: 0.5;
         cursor: pointer;
@@ -198,7 +198,7 @@
         top: 50%;
         z-index: 10;
         right: 2%;
-        font-size: 1.6vw;
+        font-size: 3.2vw;
         color: white;
         opacity: 0.5;
         cursor: pointer;
@@ -426,6 +426,10 @@
         width: 100%;
         text-align: center;
     }
+    .footerimage {
+        width: 16%;
+        height: auto;
+    }
 }
 
 
@@ -551,9 +555,9 @@
         top: 50%;
         z-index: 10;
         left: 2%;
-        font-size: 1.6vw;
+        font-size: 6.4vw;
         color: white;
-        opacity: 0.5;
+        opacity: 0.7;
         cursor: pointer;
     }
     #PrevBtn:hover{
@@ -568,9 +572,9 @@
         top: 50%;
         z-index: 10;
         right: 2%;
-        font-size: 1.6vw;
+        font-size: 6.4vw;
         color: white;
-        opacity: 0.5;
+        opacity: 0.7;
         cursor: pointer;
     }
     #NextBtn:hover{
@@ -633,10 +637,10 @@
     }
 
     .box1{
-        width: 435px;
+        width: 87vw;
         height: 72vw;
-        margin-left: 24.2px;
-        margin-top: 50px;
+        margin-left: 4.84vw;
+        margin-top: 10vw;
         background-color: #283583;
         color: white;
         text-align: left;
@@ -644,8 +648,8 @@
         border-radius: 12px;
     }
     .Box1Image {
-        width: 360px; 
-        height: 180px; 
+        width: 72vw; 
+        height: 36vw; 
         margin-top: 0px;
     }
 
@@ -671,10 +675,10 @@
     }
     
     .box2{
-        width: 435px;
+        width: 87vw;
         height: 72vw;
-        margin-left: 24.2px;
-        margin-top: 20px;
+        margin-left: 4.84vw;
+        margin-top: 4vw;
         background-color: #C11718;
         color: white;
         text-align: left;
@@ -684,8 +688,8 @@
     .Box2Image {
         width: 37.5%; 
         height: auto; 
-        margin-top: 25px;
-        margin-left: 25px;
+        margin-top: 5vw;
+        margin-left: 5vw;
         display: inline-flex;
         position: absolute;
     }
@@ -701,5 +705,9 @@
         height: auto;
         width: 100%;
         text-align: center;
+    }
+    .footerimage {
+        width: 26%;
+        height: auto;
     }
 }
