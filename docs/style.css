@@ -280,8 +280,8 @@
     .box1{
         width: 42%;
         height: 26vw;
-        margin-left: 106px;
-        margin-top: 100px;
+        margin-left: 5.521vw;
+        margin-top: 5.3vw;
         background-color: #283583;
         color: white;
         text-align: left;
@@ -289,9 +289,12 @@
         border-radius: 12px;
     }
     .Box1Image {
-        width: 360px; 
-        height: 180px; 
-        margin-top: 20px;
+        position: absolute;
+        display: inline-flex;
+        width: 18.75vw; 
+        height: auto; 
+        margin-left: 1.31vw;
+        margin-top: 1.042vw;
     }
 
     .boxbutton {
@@ -307,8 +310,8 @@
         font-size: 1.7vw;
         transition-duration: 0.4s;
         cursor: pointer;
-        margin-top: 9vw; 
-        margin-left: 17.5vw;
+        margin-top: 2vw;
+        margin-left: 18vw;
 
     }
     .boxbutton:hover {
@@ -319,8 +322,8 @@
     .box2{
         width: 42%;
         height: 26vw;
-        margin-left: 106px;
-        margin-top: 100px;
+        margin-left: 5.521vw;
+        margin-top: 5.3vw;
         background-color: #C11718;
         color: white;
         text-align: left;
@@ -330,8 +333,8 @@
     .Box2Image {
         width: 37.5%; 
         height: auto; 
-        margin-top: 25px;
-        margin-left: 25px;
+        margin-left: 1.31vw;
+        margin-top: 1.042vw;
         display: inline-flex;
         position: absolute;
     }
@@ -388,15 +391,14 @@
     .Title5 {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 6vw;
-        width: 100%;
         height: auto;
         text-align: left;
-        margin-left: 200px;
+        margin-left: 10.42vw;
     }
     
     table, th, td {
-        margin-left: 192px;
-        margin-top: 20px;
+        margin-left: 10vw;
+        margin-top: 1.042vw;
         text-align: left;
         border-collapse: collapse;
         font-size: 1vw;
@@ -418,7 +420,7 @@
         background-color: #283583;
         height: 15px;
         width: 100%;
-        margin-top: 200px;
+        margin-top: 10.41vw;
     }
     .footer {
         background-color: #C11718;
@@ -648,9 +650,11 @@
         border-radius: 12px;
     }
     .Box1Image {
-        width: 72vw; 
-        height: 36vw; 
-        margin-top: 0px;
+        position: absolute;
+        width: 32.5vw; 
+        height: auto; 
+        margin-top: 5vw;
+        margin-left: 5vw;
     }
 
     .boxbutton {
@@ -686,12 +690,23 @@
         border-radius: 12px;
     }
     .Box2Image {
-        width: 37.5%; 
+        width: 32.5vw; 
         height: auto; 
         margin-top: 5vw;
         margin-left: 5vw;
         display: inline-flex;
         position: absolute;
+    }
+
+    .hidden{
+        position: relative;
+        transform: translateY(100px);
+        opacity: 0;
+        transition: 1s all ease;
+    }
+    .show{
+        transform: translateY(0);
+        opacity: 1;
     }
 
     .footerdiv {
