@@ -5,11 +5,17 @@
     <script src="https://kit.fontawesome.com/018d4e2f8e.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>L.A.B - Home</title>
+    <link rel="icon" type="image/png" href="assets/LAB_logo.png"/>
     <link rel="stylesheet" href="style.css">
     <script src="animate.js"></script>
     
 </head>
 <body>
+    <script type="text/javascript">
+        window.onload = function(){ 
+                        alert("Update na/07/23\n\nCHANGELOG:\n- Fixed carousel load bug.\n- Added logo as icon to tab header\n- Added 'Hire Us' section to Home page.\n- Created 'Become a member' page\n- Increased pivot of mobile design display from 500px to 720px\n- Adjused CSS properties for mobile design to account for new pivot.");
+                        }
+    </script>
     <div class="desktop">
         <header>
             <a style="margin-right: 2.084vw;" href="index.html"><img src="assets\LAB_logo.png" alt="Lympstone Academy Brass logo" style="width: 6.6vw; height: 6.6vw;"></a>
@@ -37,8 +43,9 @@
             <img src="assets/LABphotoreel5.png" alt="image 5">
             <img src="assets/LABphotoreel1.png" id="firstClone" alt="image 1 - clone">
         </div>
+        <script src="carousel.js"></script>
     </div>
-    <script src="carousel.js"></script>
+    
 
     <div class="desktop">
         <div class="block1"></div>
@@ -68,9 +75,9 @@
         </div>  
         <div style="display: inline-flex;">
             <div style="transition-delay: 100ms;" class="box1 hidden">
-                <img class="Box2Image" src="assets/LABphoto4.png" alt="">
+                <img class="Box1Image" src="assets/LABphoto4.png" alt="">
                 <h1 style="position: absolute; margin-left: 50%; margin-top: 0.782vw;">To Listen</h1>
-                <p style="margin-top: 6vw; margin-left: 44%; font-size: 1.375vw;">We practise every Saturday from 10am to 12pm in the practice room on Chapel Road. 
+                <p style="margin-top: 4vw; margin-left: 42%; font-size: 1.375vw; padding: 3%;">We practise every Saturday from 10am to 12pm in the practice room on Chapel Road. 
                     The door is always open for anyone to come in and listen to us with free tea, coffee and squash during our break (around 11am). We also preform at
                     many events so keep an eye out for one near you!</p>
                 <a href="events.html"><button class="boxbutton">View upcoming events</button></a>
@@ -78,11 +85,24 @@
             <div style="transition-delay: 200ms;" class="box2 hidden">
                 <img class="Box2Image" src="assets/LABphoto3.png" alt="">
                 <h1 style="position: absolute; margin-left: 55%; margin-top: 0.782vw;">To Play</h1>
-                <p style="margin-top: 6vw; margin-left: 44%; font-size: 1.375vw">We are a beginner friendly band. Anyone can join as long as they can read music 
+                <p style="margin-top: 4vw; margin-left: 39%; font-size: 1.375vw; padding: 5%;">We are a beginner friendly band. Anyone can join as long as they can read music 
                     and make a sound on their instrument of choice! We can even lend you an instrument 
                     if you don't own one (subject to availability). For more details see the 'Become a member' page.</p>
-                <a href="#"><button class="boxbutton" style="margin-left: 19.5vw;">Become a member</button></a>
+                <a href="member.html"><button class="boxbutton" style="margin-left: 19.5vw;">Become a member</button></a>
             </div>
+        </div>
+
+        <div style="margin-top: 5.3vw;">
+            <h1 class="Title3 hidden">Hire Us!</h1>
+        </div>  
+        <div style="display: inline-flex;">
+            <img class="image3" src="assets/LABphoto2.png" alt="">
+            <div style="transition-delay: 100ms;" class="box5 hidden">
+                <p style="margin-top: 1.5vw; padding: 5%; font-size: 1.375vw; text-align: center;">We're available for hire in the local area so if you're organising an event and want us to 
+                    perform at it, give us a call! Rates are decided on a per-event basis dependent on location, length of performance and more.</p>
+                <a href="contact.html"><button class="box5button">Contact Us</button></a>
+            </div>
+            <img class="image4" src="assets/LABphoto1.png" alt="">
         </div>
     </div> 
 
@@ -101,7 +121,7 @@
             <script>
                 /* Set the width of the side navigation to 250px */
                 function openNav() {
-                document.getElementById("mySidenav").style.width = "250px";
+                document.getElementById("mySidenav").style.width = "50.11vw";
                 document.getElementById("theopacitybox").style.zIndex = "15";
                 document.getElementById("theopacitybox").style.opacity = "0.7";
                 }
@@ -152,8 +172,8 @@
             <div style="transition-delay: 100ms;" class="box1 hidden">
                 <img class="Box1Image" src="assets/LABphoto4.png" alt="">
                 <h1 style="position: absolute; margin-left: 45vw; margin-top: 0.782vw;">To Listen</h1>
-                <p style="position: absolute; margin-top: 11vw; margin-left: 45%; font-size: 3vw;">We practise every Saturday from 10am to 12pm in the practice room on Chapel Road, except those Saturdays
-                    when we have gigs. The door is always open for anyone to come in and listen to us. We have a tea/coffee break at
+                <p style="position: absolute; margin-top: 8vw; margin-left: 42%; font-size: 3vw; padding: 5%;">We practise every Saturday from 10:00-12:00 in the practice room on Chapel Road.
+                    The door is always open for anyone to come in and listen to us. We have a tea/coffee break at
                     around 11am and there is a tuck shop to buy sweets (always popular with the younger Band Members). Tea,
                     coffee and squash is free during our tea / coffee break.</p>
                 <a href="events.html"><button class="boxbutton">View upcoming events</button></a>
@@ -161,10 +181,22 @@
             <div style="transition-delay: 200ms;" class="box2 hidden">
                 <img class="Box2Image" src="assets/LABphoto3.png" alt="">
                 <h1 style="position: absolute; margin-left: 48vw; margin-top: 0.782vw;">To Play</h1>
-                <p style="position: absolute; margin-top: 15vw; margin-left: 45%; font-size: 3.25vw;">We are a beginner friendly band. Anyone can join as long as they can read music 
+                <p style="position: absolute; margin-top: 8vw; margin-left: 42%; font-size: 3.25vw; padding: 5%;">We are a beginner friendly band. Anyone can join as long as they can read music 
                     and make a sound on their instrument of choice! We can even lend you an instrument 
                     if you don't own one (subject to availability). For more details see the 'Become a member' page.</p>
-                <a href="#"><button class="boxbutton" style="margin-left: 13vw;">Become a member</button></a>
+                <a href="member.html"><button class="boxbutton" style="margin-left: 13vw;">Become a member</button></a>
+            </div>
+        </div>
+
+        <div style="margin-top: 5.3vw;">
+            <h1 class="Title3 hidden">Hire Us!</h1>
+        </div>  
+
+        <div style="display: inline-flex;">
+            <div style="transition-delay: 100ms;" class="box5 hidden">
+                <p style="margin-top: 1.5vw; padding: 5%; font-size: 4vw; text-align: center;">We're available for hire in the local area so if you're organising an event and want us to 
+                    perform at it, give us a call! Rates are decided on a per-event basis dependent on location, length of performance and more.</p>
+                <a href="contact.html"><button class="box5button">Contact Us</button></a>
             </div>
         </div>
     </div>
@@ -174,6 +206,4 @@
         <img src="assets\LAB_logo.png" alt="Lympstone Academy Brass logo" class="footerimage">
     </div>
     <script src="animate.js"></script>
-</body>
-
 </html>

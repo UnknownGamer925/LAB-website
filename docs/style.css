@@ -7,7 +7,7 @@
 
 
 
-@media only screen and (min-width: 500px){
+@media only screen and (min-width: 720px){
     .mobile {
         display: none;
     }
@@ -231,6 +231,21 @@
         margin-left: 5.33vw;
         box-shadow: 25px 25px #283583;
     }
+
+    .image3 {
+        height: 16.67vw;
+        width: 25%;
+        margin-left: 2.45%;
+        margin-top: 5.3vw;
+        box-shadow: 25px 25px #C11718;
+    }
+    .image4 {
+        height: 16.67vw;
+        width: 25%;
+        margin-left: 3.1%;
+        margin-top: 5.3vw;
+        box-shadow: 25px 25px #283583;
+    }
     
     .content{
         display: inline-flex;
@@ -289,12 +304,12 @@
         border-radius: 12px;
     }
     .Box1Image {
-        position: absolute;
-        display: inline-flex;
-        width: 18.75vw; 
+        width: 37.5%; 
         height: auto; 
         margin-left: 1.31vw;
         margin-top: 1.042vw;
+        display: inline-flex;
+        position: absolute;
     }
 
     .boxbutton {
@@ -310,7 +325,6 @@
         font-size: 1.7vw;
         transition-duration: 0.4s;
         cursor: pointer;
-        margin-top: 2vw;
         margin-left: 18vw;
 
     }
@@ -376,7 +390,38 @@
         display: inline-flex;
         position: absolute;
     }
-    
+
+    .box5{
+        width: 36.3%;
+        height: 18vw;
+        margin-left: 4.5%;
+        margin-top: 5.3vw;
+        background-color: #f86300;
+        color: white;
+        text-align: left;
+        font-size: 1.75vw;
+        border-radius: 12px;
+    }
+    .box5button{   
+        display: inline-flex;
+        position: absolute;
+        background-color: #283583;
+        color: white;
+        border-radius: 6px;
+        border: none;
+        padding: 0.532vw 2.66vw;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.7vw;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        margin-left: 11.5vw;
+    }
+    .box5button:hover {
+        background-color: white;
+        color: #283583;
+    }
+
     .hidden{
         position: relative;
         transform: translateY(100px);
@@ -415,6 +460,32 @@
     th, td {
         padding: 15px;
     }
+
+    .greybox {
+        position: absolute;
+        width: 24%;
+        margin-left: 70vw;
+        background-color: lightgray;
+        padding: 2vw;
+        border-radius: 5px;
+    }
+    .greyboxbutton {
+        background-color: #f86300;
+        color: white;
+        border-radius: 6px;
+        border: 3px solid #f86300;
+        padding: 0.532vw 2.66vw;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.7vw;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        margin-left: 3.5vw;
+    }
+    .greyboxbutton:hover {
+        background-color: white;
+        color: #f86300;
+    }
     
     .footerdiv {
         background-color: #283583;
@@ -436,7 +507,7 @@
 
 
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 720px){
     .desktop {
         display: none;
     }
@@ -480,7 +551,7 @@
     .sidenav_button1 {
         padding: 8px 8px 8px 32px;
         text-decoration: none;
-        font-size: 48px;
+        font-size: 9.62vw;
         color: white;
         background-color: #283583;
         display: block;
@@ -493,7 +564,7 @@
     .sidenav_button2 {
         padding: 8px 8px 8px 32px;
         text-decoration: none;
-        font-size: 48px;
+        font-size: 9.62vw;
         color: white;
         background-color: #C11718;
         display: block;
@@ -706,6 +777,37 @@
         margin-left: 5vw;
         display: inline-flex;
         position: absolute;
+    }
+
+    .box5{
+        width: 87vw;
+        height: 48vw;
+        margin-left: 4.84vw;
+        margin-top: 4vw;
+        background-color: #f86300;
+        color: white;
+        text-align: left;
+        font-size: 4vw;
+        border-radius: 12px;
+    }
+    .box5button{   
+        display: inline-flex;
+        position: absolute;
+        background-color: #283583;
+        color: white;
+        border-radius: 6px;
+        border: none;
+        padding: 2vw 10vw;
+        text-align: center;
+        text-decoration: none;
+        font-size: 5vw;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        margin-left: 22vw;
+    }
+    .box5button:hover {
+        background-color: white;
+        color: #283583;
     }
 
     .hidden{
