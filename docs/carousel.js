@@ -1,5 +1,5 @@
-const carouselslide = document.querySelector('.carousel-slide1');
-const carouselImages = document.querySelectorAll('.carousel-slide1 img');
+let carouselslide = document.querySelector('.carousel-slide1');
+let carouselImages = document.querySelectorAll('.carousel-slide1 img');
 let viewportHeight = window.innerHeight;
 let viewportWidth = window.innerWidth;
 
