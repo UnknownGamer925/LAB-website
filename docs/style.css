@@ -366,8 +366,8 @@
     .Box3Image {
         width: 31%; 
         height: auto; 
-        margin-top: 15px;
-        margin-left: 15px;
+        margin-top: 0.782vw;
+        margin-left: 0.782vw;
         display: inline-flex;
         position: absolute;
     }
@@ -385,8 +385,8 @@
     .Box4Image {
         width: 31%; 
         height: auto; 
-        margin-top: 15px;
-        margin-left: 15px;
+        margin-top: 0.782vw;
+        margin-left: 0.782vw;
         display: inline-flex;
         position: absolute;
     }
@@ -420,6 +420,18 @@
     .box5button:hover {
         background-color: white;
         color: #283583;
+    }
+
+    .box6{
+        width: 98.25vw;
+        height: 5vw;
+        margin-left: 1.35%;
+        margin-top: 0.782vw;
+        background-color: #f86300;
+        color: white;
+        text-align: left;
+        font-size: 2.5vw;
+        border-radius: 12px;
     }
 
     .hidden{
@@ -480,7 +492,7 @@
         font-size: 1.7vw;
         transition-duration: 0.4s;
         cursor: pointer;
-        margin-left: 3.5vw;
+        margin-left: 2.5vw;
     }
     .greyboxbutton:hover {
         background-color: white;
@@ -689,6 +701,12 @@
         margin-top: 10vw;
     }
 
+    .about{
+        display: inline-flex;
+        font-size: 4vw;
+        padding: 5vw;
+    }
+
     .block1 {
         width: 100%;
         height: 74vw;
@@ -779,6 +797,44 @@
         position: absolute;
     }
 
+    .box3{
+        width: 90vw;
+        height: 54vw;
+        margin-left: 4.84vw;
+        background-color: #C11718;
+        color: white;
+        text-align: left;
+        font-size: 5.5vw;
+        border-radius: 12px;
+    }
+    .Box3Image {
+        width: 32vw; 
+        height: auto; 
+        margin-top: 3vw;
+        margin-left: 3vw;
+        display: inline-flex;
+        position: absolute;
+    }
+    
+    .box4{
+        width: 90vw;
+        height: 54vw;
+        margin-left: 4.84vw;
+        background-color: #283583;
+        color: white;
+        text-align: left;
+        font-size: 5.5vw;
+        border-radius: 12px;
+    }
+    .Box4Image {
+        width: 32vw; 
+        height: auto; 
+        margin-top: 3vw;
+        margin-left: 3vw;
+        display: inline-flex;
+        position: absolute;
+    }
+
     .box5{
         width: 87vw;
         height: 48vw;
@@ -808,6 +864,51 @@
     .box5button:hover {
         background-color: white;
         color: #283583;
+    }
+
+    .box6{
+        width: 90vw;
+        height: 30vw;
+        margin-left: 4.84vw;
+        margin-top: 4vw;
+        background-color: #f86300;
+        color: white;
+        text-align: left;
+        font-size: 5vw;
+        border-radius: 12px;
+    }
+
+    .TitleM {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        margin-top: 4vw;
+        font-size: 6vw;
+    }
+
+    .greybox {
+        width: 90%;
+        height: auto;
+        background-color: lightgray;
+        margin-left: 5%;
+        padding: 5vw;
+        border-radius: 5px;
+    }
+    .greyboxbutton {
+        background-color: #f86300;
+        color: white;
+        border-radius: 6px;
+        border: 3px solid #f86300;
+        padding: 2vw 10vw;
+        text-align: center;
+        text-decoration: none;
+        font-size: 6vw;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        margin-left: 12.5vw;
+    }
+    .greyboxbutton:hover {
+        background-color: white;
+        color: #f86300;
     }
 
     .hidden{
