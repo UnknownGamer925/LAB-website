@@ -1,14 +1,12 @@
-function carousel() {
+document.addEventListener("DOMContentLoaded", function() {
     const carouselslide = document.querySelector('.carousel-slide1');
     const carouselImages = document.querySelectorAll('.carousel-slide1 img');
     let viewportHeight = window.innerHeight;
     let viewportWidth = window.innerWidth;
-    console.log("images extracted")
 
     //Buttons
     const prevBtn = document.querySelector('#PrevBtn');
     const nextBtn = document.querySelector('#NextBtn');
-    console.log("buttons extraced")
 
     //Counter
     let counter = 1;
@@ -43,9 +41,5 @@ function carousel() {
             counter = carouselImages.length - counter;
             carouselslide.style.transform = 'translateX(' + (((-size * counter) / viewportWidth) * 100) + 'vw)';
         }
-        console.log("js executed")
     });
-}
-
-carousel();
-console.log("external js called")
+});
