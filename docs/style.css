@@ -42,12 +42,10 @@
         padding: 0.532vw 2.66vw;
         text-align: center;
         text-decoration: none;
-        display: inline-flex;
+        display: inline-block;
         font-size: 1.7vw;
         transition-duration: 0.4s;
         cursor: pointer;
-        margin-top: 3.51vw; 
-        margin-right: 1.06vw;
     }
     
     .button1{
@@ -126,21 +124,43 @@
         text-decoration: none;
         display: inline-flex;
         font-size: 1.7vw;
-        margin-top: 3.51vw; 
-        margin-right: 1.06vw;
+    }
+
+    .button7{
+        background-color: #283583;
+        color: white;
+        border: 2px solid #283583;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        white-space: nowrap;
+    }
+    .button7:hover{
+        background-color: #C11718;
+        color: white;
+        border: 2px solid #C11718;
     }
     
     .phone {
         position: absolute; 
-        margin-left: 67vw; 
+        margin-left: 49vw; 
         margin-top: 1vw;
         font-size: 1.75vw;
     }
     .email {
         position: absolute; 
-        margin-left: 67vw; 
-        margin-top: 4vw;
+        margin-left: 64vw; 
+        margin-top: 1vw;
         font-size: 1.75vw;
+    }
+
+    .smlogo {
+        position: absolute;
+        width: 3vw;
+        height: 3vw;
+    }
+    .smlogo:hover {
+        transform: scale(1.2);
+        transition-duration: 0.2s;
     }
     
     .carousel-container1{
@@ -449,8 +469,7 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 6vw;
         height: auto;
-        text-align: left;
-        margin-left: 10.42vw;
+        text-align: center;
     }
     
     table, th, td {
@@ -558,6 +577,7 @@
         background-color: #283583;
         overflow-x: hidden;
         transition: 0.5s;
+        white-space: nowrap;
     }
       
     .sidenav_button1 {
@@ -600,6 +620,16 @@
         background-color: black;
         opacity: 0;
         z-index: -1;
+    }
+
+    .smlogo {
+        position: absolute;
+        width: 12vw;
+        height: 12vw;
+    }
+    .smlogo:hover {
+        transform: scale(1.2);
+        transition-duration: 0.2s;
     }
 
     .carousel-container1{
@@ -883,6 +913,35 @@
         text-align: center;
         margin-top: 4vw;
         font-size: 6vw;
+    }
+
+    .Title5 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20vw;
+        height: auto;
+        text-align: center;
+    }
+
+    table, th, td {
+        table-layout: fixed;
+        white-space: nowrap;
+        margin-left: 5vw;
+        margin-top: 10vw;
+        text-align: left;
+        border-collapse: collapse;
+        font-size: 4vw;
+    }
+    tr:nth-child(odd) {background-color: #d4d1d1;}
+    th:nth-child(1) {width: 100vw;}
+    th:nth-child(2) {width: 200vw;}
+    th:nth-child(3) {width: 100vw;}
+    th:nth-child(4) {width: 200vw;}
+    th:nth-child(5) {width: 200vw;}
+    th {
+        color: white;
+    }
+    th, td {
+        padding: 25px;
     }
 
     .greybox {
