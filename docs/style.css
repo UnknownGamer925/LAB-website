@@ -2,10 +2,21 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Roboto';
+    font-family: Open sans;
 }
 
-
+@font-face {
+    font-family: Varela Round;
+    src: url('assets/VarelaRound-Regular.ttf')
+}
+@font-face {
+    font-family: Arvo;
+    src: url('assets/Arvo/Arvo-Regular.ttf')
+}
+@font-face {
+    font-family: Open Sans;
+    src: url('assets/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf')
+}
 
 @media only screen and (min-width: 720px){
     .mobile {
@@ -31,7 +42,7 @@
     .Title1{
         position: absolute;
         margin-left: 8.67vw;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: Arvo;
         font-size: 2.6vw;
     }
     
@@ -231,10 +242,10 @@
     }
     
     .Title2{
-        font-family:'Times New Roman', Times, serif;
+        font-family: Varela Round;
         font-size: 4.3vw;
-        margin-left: 20vw;
-        margin-top: 0.533vw;
+        margin-left: 15vw;
+        margin-top: 1vw;
     }
     
     .image1{
@@ -277,13 +288,14 @@
     .about{
         display: inline-flex;
         font-size: 1.75vw;
-        margin-left: 5.33vw;
+        padding-left: 5.33vw;
+        padding-right: 1vw;
         margin-top: 5.33vw;
         position: absolute;
     }
     
     .Title3{
-        font-family:'Times New Roman', Times, serif;
+        font-family: Varela Round;
         font-size: 4.3vw;
         width: 100%;
         height: auto;
@@ -291,7 +303,7 @@
     }
     
     .Title4 {
-        font-family:'Times New Roman', Times, serif;
+        font-family: Varela Round;
         font-size: 4.3vw;
         margin-top: 15.625vw; 
         margin-left: 36vw; 
@@ -450,7 +462,7 @@
         background-color: #f86300;
         color: white;
         text-align: left;
-        font-size: 2.5vw;
+        font-size: 2.3vw;
         border-radius: 12px;
     }
 
@@ -563,7 +575,7 @@
         position: absolute;
         margin-left: 32vw;
         margin-top: 4vw;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: Arvo;
         font-size: 6vw;
     }
 
@@ -700,9 +712,8 @@
     }
 
     .Title2{
-        font-family:'Times New Roman', Times, serif;
+        font-family: Varela Round;
         font-size: 10vw;
-        margin-left: 5vw;
         margin-top: 0.533vw;
         text-align: center;
     }
@@ -726,14 +737,16 @@
     
     .content{
         font-size: 4vw;
-        margin-left: 20px;
         margin-top: 10vw;
+        text-align: center;
+        padding: 5vw;
     }
 
     .about{
         display: inline-flex;
         font-size: 4vw;
         padding: 5vw;
+        text-align: center;
     }
 
     .block1 {
@@ -749,7 +762,7 @@
     }
 
     .Title3{
-        font-family:'Times New Roman', Times, serif;
+        font-family: Varela Round;
         font-size: 10vw;
         width: 100%;
         height: auto;
@@ -757,10 +770,10 @@
     }
 
     .Title4 {
-        font-family:'Times New Roman', Times, serif;
+        font-family: Varela Round;
         font-size: 10vw;
         margin-top: 25vw; 
-        margin-left: 21vw; 
+        margin-left: 22vw; 
         position: absolute;
         z-index: 6;
         color: whitesmoke;
@@ -798,7 +811,6 @@
         transition-duration: 0.4s;
         cursor: pointer;
         margin-top: 57.5vw; 
-        margin-left: 10vw;
 
     }
     .boxbutton:hover {
